@@ -1,0 +1,17 @@
+import { ethers } from "ethers";
+
+export const sendTransaction = async (to, amount) => {
+  const provider = new ethers.JsonRpcProvider(process.env.RPC_URL);
+
+  const wallet = new ethers.Wallet(
+    process.env.PRIVATE_KEY,
+    provider
+  );
+
+  const tx = await wallet.sendTransaction({
+    to,
+    value: ethers.parseEther(amount),
+  });
+
+  return tx.hash;
+};
