@@ -4,6 +4,8 @@ LAVINA isn’t just another AI—she’s your ultimate ally in Web3.
 
 LAVINA is an intelligent AI agent designed to help users navigate, automate, and optimize their experience in the decentralized world. From on-chain actions to real-time insights, LAVINA brings intelligence, speed, and simplicity to Web3.
 
+CA Pump.fun : 9fZt23LGAMwWA2B41GXz8BuL2cqWaXF1HE2kpCWspump
+
 ---
 
 ## 🚀 Features
